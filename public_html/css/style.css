@@ -1,0 +1,44 @@
+/* style.css for JoAnne O. CISW 400 */
+/* Main Typography */
+
+body{font-family:Arial;font-size:.9rem;text-shadow:0 1px 1px rgba(255,255,255,0.4);color:#262626;margin:0;padding:0;background:#141414 url('../images/purpleflower72ppi.png');}
+#container{position:relative;font-family:Arial, Helvetica, sans-serif;overflow:hidden;width:95%;margin:30px auto;border:1px solid #999;background-color:#333;font-size:1.0rem;width:95%;min-width:320px;max-width:980px;color:#333;}
+h1, h2, h3{color:#695acd;}
+p{color:#bbb;}
+.fl{float:left;}
+a{text-decoration:none;color:#363636;text-transform:uppercase;font-size:1.0rem;font-weight:bold;}
+#contact a {text-decoration:none;color:#ddd;text-transform:uppercase;font-size:1.0rem;font-weight:bold;}
+#contact a
+/* Banner */
+#header img{width:85%;border:none;margin:2% 7%;}
+/* Horizontal Rule */
+div.hr{height:8px;background:#bbb;}
+div.hr hr{display:none;}
+/* Lists */
+ul { overflow: auto;}
+ul.vertical li a{display:block;padding:0 20px;border-left:1px solid rgba(255,255,255,0.1);border-right:1px solid rgba(0,0,0,0.1);text-align:center;line-height:79px;-webkit-transition-property:background;-webkit-transition-duration:700ms;-moz-transition-property:background;-moz-transition-duration:700ms;}
+ul.vertical li a:hover{background:transparent none;}
+ul.vertical li.active a{background:-webkit-gradient(radial, 50% 100%, 10, 50% 50%, 90, from(rgba(31,169,244,1)), to(rgba(0,28,78, 1)));background:-moz-radial-gradient(center 80px 45deg, circle cover, rgba(31,169,244,1) 0%, rgba(0,28,78, 1) 100%);}
+/* Left Navigation */
+ul.vertical{padding: 0; margin:20px 20px 20px 0;width:250px;border:1px solid #323232;-webkit-border-top-right-radius:8px;-moz-border-radius-topright:8px;-webkit-border-bottom-right-radius:8px;-moz-border-radius-bottomright:8px;}
+ul.vertical li{list-style:none;position:relative;background:-webkit-gradient(radial, 50% 100%, 0, 50% 100%, 140, from(rgba(105,90,205,1)), to(rgba(0,28,78, 1)));background:-moz-radial-gradient(center 80px 45deg, circle cover, rgba(105,90,205,1) 0%, rgba(0,28,78, 1) 100%);}
+ul.vertical li span{position:absolute;left:20px;top:50px;color:#151515;text-shadow:0 1px 1px rgba(255,255,255,0.2);}
+ul.vertical li:first-child a, ul.vertical li:first-child{-webkit-border-top-right-radius:8px;-moz-border-radius-topright:8px;}
+ul.vertical li:last-child a, ul.vertical li:last-child{-webkit-border-bottom-right-radius:8px;-moz-border-radius-bottomright:8px;}
+ul.vertical li a{background:-webkit-gradient(linear, left top, left bottom, from(rgba(117,117,117,1)), to(rgba(68,68,68,1)));background:-moz-linear-gradient(top, rgba(117,117,117,1), rgba(68,68,68,1));background:#606060;text-align:left;border-bottom:1px solid #323232;border-top:1px solid #868686;border-right:1px solid #5a5a5a;color:#151515;-webkit-transition-property:background;-webkit-transition-duration:700ms;-moz-transition-property:background;-moz-transition-duration:700ms;}
+/* Content */
+#content{float:left;width:40.0rem;padding:1.0rem;}
+/* Lists for Assignments and Resources */
+ul.assignments.fl, ul.resources.fl{list-style-type:none;margin:0px;padding:0px;}
+ol.assignments.main{list-style-type:decimal;color:#6c7bff;}
+ol.assignments.sub{list-style-type:lower-alpha;color:#6c7bff;}
+ol.resources.main{list-style-type:decimal;color:#6c7bff;}
+.assignments li span strong{color:#bbb;}
+.assignments li span, .assignments a, .resources a{display:block;color:#6c7bff;font-size:1.0rem;text-decoration:none;text-align:left;border:none;line-height:normal;}
+.assignments li a:hover{background:transparent none; color:#bbb;}
+/* Footer */
+#footer{font-family:Georgia, "Times New Roman", Times, serif;font-size:1.0rem;border-top:1px solid #666;text-align:center;padding:7px 0;clear:both;color:#ccc;}
+
+
+
+
